@@ -1,0 +1,96 @@
+ #toTop {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 1000;
+        background-color:#1F2B6C;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        padding: 10px 15px;
+        display: none;
+        cursor: pointer;
+      }
+
+a.nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+a.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+a.nav-link:hover::after {
+  width: 100%;
+}
+
+a.nav-link:hover {
+  color: #adb5bd !important;
+}
+
+
+
+
+      .text-color{
+        color: #1F2B6C;
+      }
+
+      .bg-color{
+        background-color: #1F2B6C;
+      }
+      .btn-color{
+       background-color:  #BFD2F8;
+      }
+    .btn-color:hover{
+        background-color: white;
+        
+    }
+a.text-link {
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+a.text-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+a.text-link:hover::after {
+  width: 100%;
+}
+
+a.text-link:hover {
+  color: #adb5bd !important;
+}
+
+a.social-icon {
+  font-size: 1.25rem;
+  transition: transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.social-icon::after {
+  display: none !important;
+}
+
+a.social-icon:hover {
+  transform: scale(1.2);
+  color: #d1e0ff !important;
+}

@@ -23,7 +23,7 @@ function initservices() {
   
  
  
-function renderservices() {
+function renderServices() {
   fetch("./Services/services.html")
     .then((response) => response.text())
     .then((html) => {
