@@ -1,10 +1,7 @@
 function initServices() {
   let aboutElement = document.getElementById("services");
   aboutElement.onclick = function change() {
-    aboutElement.style.fontSize = "50px";
-    aboutElement.style.backgroundColor = "yellow";
-    aboutElement.style.color = "red";
-  };
+
 }
 
 function renderServices() {
