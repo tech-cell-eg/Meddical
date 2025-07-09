@@ -1,10 +1,10 @@
 function initHome() {
-  // let aboutElement = document.getElementById("home");
-  // aboutElement.onclick = function change() {
-  //   aboutElement.style.fontSize = "50px";
-  //   aboutElement.style.backgroundColor = "yellow";
-  //   aboutElement.style.color = "red";
-  // };
+  let aboutElement = document.getElementById("home");
+  aboutElement.onclick = function change() {
+    aboutElement.style.fontSize = "50px";
+    aboutElement.style.backgroundColor = "yellow";
+    aboutElement.style.color = "red";
+  };
 }
 
 renderHome();
