@@ -17,7 +17,7 @@ function renderHome() {
       const script = document.createElement("script");
       script.src = "../Home/Home.js";
       script.onload = () => {
-        initAbout();
+        initHome();
       };
       document.body.appendChild(script);
     });
