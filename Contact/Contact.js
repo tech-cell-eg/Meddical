@@ -16,7 +16,7 @@ function renderContact() {
       const script = document.createElement("script");
       script.src = "../Contact/Contact.js";
       script.onload = () => {
-        initAbout();
+        initContact();
       };
       document.body.appendChild(script);
     });
