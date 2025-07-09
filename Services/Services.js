@@ -16,7 +16,7 @@ function renderServices() {
       const script = document.createElement("script");
       script.src = "../Services/Services.js";
       script.onload = () => {
-        initAbout();
+        initServices();
       };
       document.body.appendChild(script);
     });
