@@ -16,7 +16,7 @@ function renderNews() {
       const script = document.createElement("script");
       script.src = "../News/News.js";
       script.onload = () => {
-        initAbout();
+        initNews();
       };
       document.body.appendChild(script);
     });
