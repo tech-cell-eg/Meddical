@@ -16,7 +16,7 @@ function renderDoctors() {
       const script = document.createElement("script");
       script.src = "../Doctors/Doctors.js";
       script.onload = () => {
-        initAbout();
+        initDoctors();
       };
       document.body.appendChild(script);
     });
