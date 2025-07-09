@@ -7,7 +7,6 @@ function initHome() {
   };
 }
 
-renderHome();
 
 function renderHome() {
   fetch("../Home/Home.html")
