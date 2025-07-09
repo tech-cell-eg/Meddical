@@ -16,7 +16,7 @@ function renderAppointment() {
       const script = document.createElement("script");
       script.src = "../Appointment/Appointment.js";
       script.onload = () => {
-        initAbout();
+        initAppointment();
       };
       document.body.appendChild(script);
     });
