@@ -1,7 +1,6 @@
 function initServices() {
   let aboutElement = document.getElementById("services");
-  aboutElement.onclick = function change() {
-
+ 
 }
 
 function renderServices() {
