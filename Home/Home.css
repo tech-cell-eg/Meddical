@@ -1,6 +1,6 @@
 /* ===================================  Start Leading  ===================================*/
 .leading{
-    background-image:url('../images/4f5792cf615ab11794b15f35bb74dce1d08d710f.jpg');
+    background-image:url('../Home/images/4f5792cf615ab11794b15f35bb74dce1d08d710f.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -145,7 +145,7 @@
 
 @media (max-width: 768px) {
     .leading{
-    background-image:linear-gradient( rgba(229, 228, 232, 0.8),rgba(235, 234, 239, 0)),url('../images/4f5792cf615ab11794b15f35bb74dce1d08d710f.jpg');
+    background-image:linear-gradient( rgba(229, 228, 232, 0.8),rgba(235, 234, 239, 0)),url('../Home/images/4f5792cf615ab11794b15f35bb74dce1d08d710f.jpg');
     background-size: contain;
     min-height: 100vh;
     display: flex;
@@ -215,7 +215,7 @@
 
 @media (max-width: 480px) {
 .leading{
-    background-image:linear-gradient( rgba(229, 228, 232, 0.8),rgba(235, 234, 239, 0)),url('../images/4f5792cf615ab11794b15f35bb74dce1d08d710f.jpg');
+    background-image:linear-gradient( rgba(229, 228, 232, 0.8),rgba(235, 234, 239, 0)),url('../Home/images/4f5792cf615ab11794b15f35bb74dce1d08d710f.jpg');
     background-size: contain;
     min-height: 100vh;
     display: flex;
@@ -314,7 +314,7 @@
 
 .great .image{
     margin-top: 60px;
-    background-image: url('../images/6fcce8f0b03205463c35480c0da07b25515c4be0.png');
+    background-image: url('../Home/images/6fcce8f0b03205463c35480c0da07b25515c4be0.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 450px;
@@ -437,7 +437,7 @@
 
 /* ===================================  Start Appointment ===================================*/
 .appointment{
-  background-image:linear-gradient(rgba(229, 228, 232, 0.8),rgba(229, 228, 232, 0.8)) ,url('../images/image.jpg');
+  background-image:linear-gradient(rgba(229, 228, 232, 0.8),rgba(229, 228, 232, 0.8)) ,url('../Home/images/image.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 550px;
