@@ -13,7 +13,7 @@ h2{
 #image:hover .layer {
     position:absolute;
     background-color:rgba(31, 43, 108, 0.7) ;
-    background-image: url(images/icon.png);
+    background-image: url("../images/Frame 2.png"), url("../images/headerImage.png");
     background-position: center;
     background-repeat: no-repeat;
     top:0;
