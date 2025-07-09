@@ -1,5 +1,5 @@
 let root = document.querySelector("#root");
-renderHome
+
 const toTop = document.getElementById("toTop");
 window.addEventListener("scroll", () => {
   if (window.scrollY > 300) {
