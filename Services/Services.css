@@ -13,13 +13,16 @@ h2{
 #image:hover .layer {
     position:absolute;
     background-color:rgba(31, 43, 108, 0.7) ;
-    background-image: url("../images/Frame 2.png"), url("../images/headerImage.png");
+    background-image: url(images/icon.png);
     background-position: center;
     background-repeat: no-repeat;
     top:0;
     left:0;
     right: 0;
     bottom: 0;
+}
+a{
+    cursor: pointer;
 }
  .header{
     background-image:url("images/Frame 2.png"), url("images/headerImage.png");
@@ -69,4 +72,3 @@ h2{
         height: 40px;
     }
 }
-
