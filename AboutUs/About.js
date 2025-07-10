@@ -1,10 +1,6 @@
 function initAbout() {
   let aboutElement = document.getElementById("about");
-  aboutElement.onclick = function change() {
-    aboutElement.style.fontSize = "50px";
-    aboutElement.style.backgroundColor = "yellow";
-    aboutElement.style.color = "red";
-  };
+
 }
 
 function renderAbout() {

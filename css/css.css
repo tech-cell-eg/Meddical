@@ -1,4 +1,8 @@
- #toTop {
+*{
+  font-family: "Yeseva One", serif;
+  font-style: normal;
+}
+#toTop {
         position: fixed;
         bottom: 30px;
         right: 30px;

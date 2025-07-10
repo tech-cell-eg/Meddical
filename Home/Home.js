@@ -1,11 +1,8 @@
 function initHome() {
   let aboutElement = document.getElementById("home");
-  aboutElement.onclick = function change() {
-    aboutElement.style.fontSize = "50px";
-    aboutElement.style.backgroundColor = "yellow";
-    aboutElement.style.color = "red";
-  };
+ 
 }
+
 
 function renderHome() {
   fetch("../Home/Home.html")
@@ -16,7 +13,7 @@ function renderHome() {
       const script = document.createElement("script");
       script.src = "../Home/Home.js";
       script.onload = () => {
-        initAbout();
+        initHome();
       };
       document.body.appendChild(script);
     });
