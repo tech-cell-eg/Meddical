@@ -1,20 +1,20 @@
 function initServices() {
-  // const cards = document.querySelectorAll(".card");
-  // console.log(cards);
-  // cards.forEach((card) => {
-  //   const image = card.querySelector(".image");
-  //   const icon = card.querySelector(".icon"); 
+  const cards = document.querySelectorAll(".card");
+  console.log(cards);
+  cards.forEach((card) => {
+    const image = card.querySelector(".image");
+    const icon = card.querySelector(".icon"); 
 
-  //   if (!image || !icon) return; 
+    if (!image || !icon) return; 
 
-  //   image.addEventListener("mouseenter", () => {
-  //     icon.classList.add("d-none");
-  //   });
+    image.addEventListener("mouseenter", () => {
+      icon.classList.add("d-none");
+    });
 
-  //   image.addEventListener("mouseleave", () => {
-  //     icon.classList.remove("d-none");
-  //   });
-  // });
+    image.addEventListener("mouseleave", () => {
+      icon.classList.remove("d-none");
+    });
+  });
 }
 
 function renderServices() {
