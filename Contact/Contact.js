@@ -1,10 +1,7 @@
 function initContact() {
   let aboutElement = document.getElementById("contact");
-  aboutElement.onclick = function change() {
-    aboutElement.style.fontSize = "50px";
-    aboutElement.style.backgroundColor = "yellow";
-    aboutElement.style.color = "red";
-  };
+
+
 }
 
 function renderContact() {
@@ -16,7 +13,7 @@ function renderContact() {
       const script = document.createElement("script");
       script.src = "../Contact/Contact.js";
       script.onload = () => {
-        initAbout();
+        initContact();
       };
       document.body.appendChild(script);
     });

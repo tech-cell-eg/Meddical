@@ -1,0 +1,150 @@
+/* ================================= Start Contact-image ================================= */
+.contact-image{
+    background-image: linear-gradient( rgba(255, 255, 255, 0.377), rgba(255, 255, 255, 0.377)),url('../Contact/images/5384c8cfe4c254ab38d1f557f70b0355f48b740a (1).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    color: #1F2B6C;
+}
+/* ================================= End Contact-image ================================= */
+
+/* ================================= Start Contact-form ================================= */
+.contact-form h5{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #159EEC;
+}
+.contact-form h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #1F2B6C;
+}
+.contact-form .form{
+  margin-top: 60;
+  background-color: #1F2B6C;
+  color: #BFD2F8;
+  border-radius: 7px;
+}
+.name,.email,.gender,.subject{
+  border: 1px solid #BFD2F8;
+}
+.message{
+  padding: 9px;
+  padding-bottom: 7rem;
+}
+.sub-btn{
+  color: #1F2B6C;
+  background-color: #BFD2F8;
+  padding: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* ================================= Start Right Part ================================= */
+.contact-form .item{
+    background-color: #BFD2F8;
+    color: #1F2B6C;
+    padding: 32px 20px;
+    border-radius: 5px;
+}
+.contact-form .active-item{
+    background-color: #1F2B6C;
+    color:#BFD2F8;
+}
+
+.contact-form .item i{
+    
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.contact-form .item h4{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* ===============  Media Query =============== */
+@media (max-width: 990px) {
+
+  .contact-form h5 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .contact-form h2 {
+    font-size: 26px;   
+    text-align: center;
+  }
+
+  .contact-form .form {
+    margin-top: 40px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .name,
+  .email,
+  .gender,
+  .subject,
+  .message {
+    width: 100%;
+    margin-bottom: 1.25rem;
+  }
+
+  .gender {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .message {
+    padding-bottom: 5.5rem;
+  }
+
+  .sub-btn {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .contact-form .item {
+    padding: 28px 18px;
+    text-align: center;
+  }
+
+  .contact-form .active-item{
+    margin-top: 20px;
+}
+
+  .contact-form .item i {
+    font-size: 18px;
+    padding-bottom: 12px;
+  }
+
+  .contact-form .item h4 {
+    font-size: 16px;
+  }
+
+  .contact-form .row {
+    flex-direction: column;
+  }
+  .contact-form .col-md-6 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  .contact-form .item {
+    
+    margin-block: 10px;
+  }
+
+}
+/* ================================= End Right Part ================================= */
+
+/* ================================= End Contact-form ================================= */

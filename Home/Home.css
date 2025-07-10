@@ -1,0 +1,642 @@
+/* ===================================  Start Leading  ===================================*/
+.leading{
+    background-image:url('./images/4f5792cf615ab11794b15f35bb74dce1d08d710f.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.total{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.leading .cir-top{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-color: #159EEC;
+    opacity: 30%;
+    top: -40%;
+    left: -12%;
+    border-radius: 50%;
+}
+
+.leading .cir-bottom{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-color: #BFD2F8;
+    opacity: 25%;
+    right: -5%;
+    bottom: -8%;
+    border-radius: 50%;
+
+}
+
+.leading .caption h4{
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 100%;
+ color: #159EEC;
+}
+.leading .caption h1{
+ font-weight: 400;
+ font-size: 48px;
+ line-height: 100%;
+ color: #1F2B6C;
+}
+.leading .caption button{
+ font-weight: 500;
+ font-size: 16px;
+ padding: 10px 40px;
+ background-color: #BFD2F8;
+ border-radius: 50px;
+}
+.leading .book-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 94%;
+    left: 20%;
+}
+.leading .book-info .book-1,.leading .book-info .book-2,.leading .book-info .book-3{
+     padding:30px 40px;
+    color: #FCFEFE;
+    margin-right: 25px;
+}
+
+.leading .book-info .book-1 i,.leading .book-info .book-2 i,.leading .book-info .book-3 i{
+    font-size: 30px;
+    padding-left: 50px;
+}
+.leading .book-info .book-1 i{
+    color: #BFD2F8;
+    
+}
+.leading .book-info .book-1{
+    background-color: #1F2B6C;
+   
+}
+.leading .book-info .book-2{
+    background-color: #BFD2F8;
+    color: #1F2B6C;
+
+}
+.leading .book-info .book-3{
+    background-color: #159EEC;
+}
+
+/* ===================================  Media Query  ===================================*/
+
+@media (max-width: 992px) {
+  .leading .caption h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .leading .caption button {
+    font-size: 14px;
+    padding: 5px 25px;
+  }
+
+  .leading .book-info {
+    align-items: center;
+    top: 90%;
+    left: 0;
+    width: 100%;
+  }
+
+  .leading .book-info .book-1,
+  .leading .book-info .book-2,
+  .leading .book-info .book-3 {
+    margin-left: 5px;
+    margin-bottom: 15px;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .leading .book-info .book-1 i,
+  .leading .book-info .book-2 i,
+  .leading .book-info .book-3 i {
+    padding-left: 0;
+  }
+
+  .leading .cir-top,
+  .leading .cir-bottom {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+    .leading{
+    background-image:linear-gradient( rgba(229, 228, 232, 0.8),rgba(235, 234, 239, 0)),url('../images/4f5792cf615ab11794b15f35bb74dce1d08d710f.jpg');
+    background-size: contain;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+ 
+  .leading .caption h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .leading .caption h4 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .leading .caption button {
+    font-size: 13px;
+    padding: 8px 20px;
+    display: block;
+    margin: auto;
+  }
+
+  .leading .book-info {
+    flex-direction: column;
+    position: static;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .leading .book-info .book-1,
+  .leading .book-info .book-2,
+  .leading .book-info .book-3 {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leading .book-info .book-1 i,
+  .leading .book-info .book-2 i,
+  .leading .book-info .book-3 i {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .leading .cir-top{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: #159EEC;
+    opacity: 30%;
+    top: -30%;
+    left: -30%;
+    border-radius: 50%;
+}
+  .leading .cir-bottom {
+    display: none; 
+  }
+}
+
+@media (max-width: 480px) {
+.leading{
+    background-image:linear-gradient( rgba(229, 228, 232, 0.8),rgba(235, 234, 239, 0)),url('../images/4f5792cf615ab11794b15f35bb74dce1d08d710f.jpg');
+    background-size: contain;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+  .leading .caption h1 {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .leading .caption h4 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 800;
+  }
+
+  .leading .caption button {
+    font-size: 13px;
+    padding: 13px 35px;
+    display: block;
+    margin: auto;
+  }
+
+  .leading .book-info {
+    display: none;
+  }
+
+  .leading .cir-top{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: #159EEC;
+    opacity: 30%;
+    top: -38%;
+    left: -70%;
+    border-radius: 50%;
+}
+
+  .leading .cir-bottom {
+    display: none;
+  }
+}
+
+/* ===================================  End Leading  ===================================*/
+
+/* ===================================  Start Great Place ===================================*/
+.great{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.great .content{
+    width: 40%;
+    margin: auto;
+}
+.great .content h5{
+    color: #159EEC;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.great .content h2{
+    color:#1F2B6C;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    padding-bottom: 10px;
+}
+
+.great .content p{
+    color:#212124;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    padding-bottom: 20px;
+}
+.great .content span{
+    color:#159EEC;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    padding-bottom: 30px;
+}
+.great .content span i{
+    color:#1F2B6C;
+    padding-left: 5px;
+}
+
+.great .image{
+    margin-top: 60px;
+    background-image: url('./images/6fcce8f0b03205463c35480c0da07b25515c4be0.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.colors{
+  display: flex;
+  padding-bottom: 60px;
+}
+.color-1{
+    width: 25%;
+    height: 8px;
+    background-color: #BFD2F8;
+}
+.color-2{
+    width: 60%;
+    height: 8px;
+    background-color: #1F2B6C;
+}
+.color-3{
+    width: 22%;
+    height: 8px;
+    background-color:#159EEC;
+}
+
+/* ===================================  End Great Place  ===================================*/
+
+/* ===================================  Start Services ===================================*/
+.my-title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.my-title h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #159EEC;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.my-title h2{
+    color: #1F2B6C;
+    font-weight: 700;
+    font-size: 32px;
+}
+.left-part{
+   border: 1px solid #cacccc;
+   border-radius: 5px;
+}
+.left-part .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+ 
+}
+.left-part .dif-color{
+  color: #BFD2F8;
+  background-color: #1F2B6C;
+}
+.left-part .dif-color i{
+  color: #BFD2F8 !important;
+}
+.left-part .item i{
+  color: #159EEC;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+.left-part .view{
+  color: #BFD2F8 ;
+  background-color: #1F2B6C;
+  padding: 12px 25px;
+}
+.middle-part{
+  padding-top: 30px;
+}
+.middle-part h3{
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 100%;
+  padding-bottom: 20px;
+}
+.middle-part .item {
+    padding-bottom: 20px;
+}
+.middle-part .item i{
+    padding-right: 5px;
+    color: #159EEC;
+}
+.middle-part .item span{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+/* ===================================  End Services  ===================================*/
+
+/* ===================================  Start Specialties ===================================*/
+.Specialties .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 45px;
+  border: 1px solid #eff6f6;
+}
+.Specialties .item i{
+  color: #159EEC;
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+.Specialties .dif-color{
+  color: #BFD2F8;
+  background-color: #1F2B6C;
+}
+.Specialties .dif-color i{
+  color: #BFD2F8 !important;
+}
+
+/* ===================================  End Specialties  ===================================*/
+
+/* ===================================  Start Appointment ===================================*/
+.appointment{
+  background-image:linear-gradient(rgba(229, 228, 232, 0.8),rgba(229, 228, 232, 0.8)) ,url('./images/image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+
+.appointment .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+}
+
+.appointment .content h2{
+  
+  color: #159EEC;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.appointment .form{
+  margin-top: 60;
+  background-color: #1F2B6C;
+  color: #BFD2F8;
+  border-radius: 7px;
+}
+.name,.email,.gender,.date,.department,.doctor,.time,.phone{
+  border: 1px solid #BFD2F8;
+}
+.gender,.time,.date,.doctor,.department{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.message{
+  padding: 9px;
+  padding-bottom: 7rem;
+}
+.sub-btn{
+  color: #1F2B6C;
+  background-color: #BFD2F8;
+  padding: 15px;
+    border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* ===================================  Media Query  ===================================*/
+
+@media (max-width: 750px) {
+  .appointment {
+    height: auto; 
+    background-position: center;
+  }
+
+  .appointment .content {
+    height: auto;
+    padding: 20px;
+    align-items: center; 
+    text-align: center;
+  }
+
+  .appointment .content h2 {
+    font-size: 24px;
+  }
+
+  .appointment .form {
+    margin-top: 30px;
+    padding: 15px;
+  }
+
+  .gender,
+  .time,
+  .date,
+  .doctor,
+  .department {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px; 
+  }
+
+  .message {
+    padding-bottom: 4rem;
+  }
+
+  .sub-btn {
+    width: 100%; 
+    text-align: center;
+  }
+}
+
+
+/* ===================================  End Appointment  ===================================*/
+
+/* ===================================  Start Doctors ===================================*/
+.doctors .item img{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.doctors .item .img-2{
+  height: 475px;
+}
+
+.doctors .item .item-content{
+  padding-block: 25px;
+  background-color: #BFD2F8;
+  color: #1F2B6C;
+}
+
+.doctors .item .item-content h4{
+ font-weight: 700;
+ font-size: 18px;
+ letter-spacing: 4px;
+ text-transform: uppercase;
+}
+.doctors .item .item-content .icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.doctors .item .item-content a{
+ width: 28px;
+ height: 28px;
+ background-color: #1F2B6C;
+ color:#BFD2F8 ;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-decoration: none;
+ margin-right: 7px;
+}
+
+.doctors .item p {
+  background-color: #1F2B6C;
+  color: #BFD2F8;
+  padding-block: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.circles{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 15px;
+}
+
+.circles .cir-1, .circles .cir-2{
+  width: 15px;
+  height: 15px;
+  background-color: #BFD2F8;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.circles .cir-2{
+  background-color: #1F2B6C;
+}
+
+/* ===================================  Media Query  ===================================*/
+
+@media(max-width: 1400px){
+  .doctors .item .img-2{
+  height: 408px;
+}
+}
+@media(max-width: 1200px){
+  .doctors .item .img-2{
+  height: 340px;
+}
+}
+@media(max-width: 950px){
+  .doctors .item .img-2{
+  height: 248px;
+}
+}
+
+/* ===================================  End Doctors  ===================================*/
+
+/* ===================================  Start News  ===================================*/
+.news .content .new{
+  padding-block: 10px;
+}
+.news .content .act{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.news .content .new img{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.news .content .caption p{
+  color: #159EEC;
+}
+.news .content .caption .icon-1{
+  color: #526AE9;
+  padding-right: 5px;
+}
+.news .content .caption .icon-2{
+  color: #E2315C;
+  padding-inline: 5px;
+}
+/* ===================================  End News  ===================================*/
