@@ -20,13 +20,17 @@ let containerNews = document.getElementById("news-container");
                 <h2>${data[i].acticleName}</h2>
                 <p>${data[i].sammary}</p>
               </div>
-              <button style=" background-color:#BFD2F8; border-radius:50px; padding:13px 26px; border:none"> Read More     <i class="fa-solid fa-arrow-right"></i> </i></button>
+              <button id="readmore" style="background-color:#BFD2F8; border-radius:50px; padding:13px 26px; border:none;" 
+               "> Read More     <i class="fa-solid fa-arrow-right"></i> </i></button>
              
            </div>
           </div>
       `
     }
+    let readmore =document.getElementById("readmore");
+ readmore.addEventListener('click', renderSingleNews);
  }
+ 
 
  function renderNews(){
     fetch('./News/news.html')
