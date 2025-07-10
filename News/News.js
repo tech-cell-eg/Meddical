@@ -1,10 +1,6 @@
 function initNews() {
   let aboutElement = document.getElementById("news");
-  aboutElement.onclick = function change() {
-    aboutElement.style.fontSize = "50px";
-    aboutElement.style.backgroundColor = "yellow";
-    aboutElement.style.color = "red";
-  };
+
 }
 
 function renderNews() {
@@ -16,7 +12,7 @@ function renderNews() {
       const script = document.createElement("script");
       script.src = "../News/News.js";
       script.onload = () => {
-        initAbout();
+        initNews();
       };
       document.body.appendChild(script);
     });
