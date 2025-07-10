@@ -44,7 +44,7 @@
   border-bottom-right-radius: 5px;
 }
 /* ================================= Start Right Part ================================= */
-.contact-form .item{
+.contact-form .contact-item{
     background-color: #BFD2F8;
     color: #1F2B6C;
     padding: 32px 20px;
@@ -55,13 +55,13 @@
     color:#BFD2F8;
 }
 
-.contact-form .item i{
+.contact-form .contact-item i{
     
     font-size: 20px;
     padding-bottom: 15px;
 }
 
-.contact-form .item h4{
+.contact-form .contact-item h4{
     font-weight: 700;
     font-size: 18px;
     text-transform: uppercase;
@@ -112,7 +112,7 @@
     font-size: 16px;
   }
 
-  .contact-form .item {
+  .contact-form .contact-item {
     padding: 28px 18px;
     text-align: center;
   }
@@ -121,12 +121,12 @@
     margin-top: 20px;
 }
 
-  .contact-form .item i {
+  .contact-form .contact-item i {
     font-size: 18px;
     padding-bottom: 12px;
   }
 
-  .contact-form .item h4 {
+  .contact-form .contact-item h4 {
     font-size: 16px;
   }
 
@@ -139,7 +139,7 @@
 }
 
 @media (max-width: 760px) {
-  .contact-form .item {
+  .contact-form .contact-item {
     
     margin-block: 10px;
   }
