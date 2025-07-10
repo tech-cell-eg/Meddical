@@ -397,14 +397,14 @@
   line-height: 100%;
   padding-bottom: 20px;
 }
-.middle-part .item {
+.middle-part .item-service {
     padding-bottom: 20px;
 }
-.middle-part .item i{
+.middle-part .item-service i{
     padding-right: 5px;
     color: #159EEC;
 }
-.middle-part .item span{
+.middle-part .item-service span{
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
@@ -531,32 +531,32 @@
 }
 
 /* ===================================  Start Doctors ===================================*/
-.doctors .item img{
+.doctors .item-doctor img{
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-.doctors .item .img-2{
+.doctors .item-doctor .img-2{
   height: 475px;
 }
 
-.doctors .item .item-content{
+.doctors .item-doctor .item-content{
   padding-block: 25px;
   background-color: #BFD2F8;
   color: #1F2B6C;
 }
 
-.doctors .item .item-content h4{
+.doctors .item-doctor .item-content h4{
  font-weight: 700;
  font-size: 18px;
  letter-spacing: 4px;
  text-transform: uppercase;
 }
-.doctors .item .item-content .icons{
+.doctors .item-doctor .item-content .icons{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.doctors .item .item-content a{
+.doctors .item-doctor .item-content a{
  width: 28px;
  height: 28px;
  background-color: #1F2B6C;
@@ -569,7 +569,7 @@
  margin-right: 7px;
 }
 
-.doctors .item p {
+.doctors .item-doctor p {
   background-color: #1F2B6C;
   color: #BFD2F8;
   padding-block: 10px;
@@ -598,17 +598,17 @@
 /* ===================================  Media Query  ===================================*/
 
 @media(max-width: 1400px){
-  .doctors .item .img-2{
+  .doctors .item-doctor .img-2{
   height: 408px;
 }
 }
 @media(max-width: 1200px){
-  .doctors .item .img-2{
+  .doctors .item-doctor .img-2{
   height: 340px;
 }
 }
 @media(max-width: 950px){
-  .doctors .item .img-2{
+  .doctors .item-doctor .img-2{
   height: 248px;
 }
 }
