@@ -15,7 +15,9 @@
   color: white;
   text-decoration: none;
 }
-
+.about .fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands" !important;
+}
 .about p,
 .about h2,
 .about h3 {
