@@ -342,11 +342,11 @@
 /* ===================================  End Great Place  ===================================*/
 
 /* ===================================  Start Services ===================================*/
-.title{
+.my-title{
     text-align: center;
     padding-bottom: 50px;
 }
-.title h5{
+.my-title h5{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #159EEC;
     font-weight: 700;
@@ -354,7 +354,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.title h2{
+.my-title h2{
     color: #1F2B6C;
     font-weight: 700;
     font-size: 32px;

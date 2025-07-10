@@ -1,5 +1,4 @@
 function initSingleServices() {
-  let aboutElement = document.getElementById("singleServices");
 
 }
 
