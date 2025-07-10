@@ -1,0 +1,51 @@
+#single-services .header{
+    background-image:url("images/Group 203.png"), url("images/Rectangle 13.png");
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+     background-repeat: no-repeat;
+}
+#single-services .header::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+   bottom: 0;
+    background-color:#d3d7d370;
+    z-index: 1;
+}
+ 
+.carousel-indicators button {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    margin: 0 5px !important;
+    border: 1px solid #e4e4e4 !important;
+    background-color: transparent !important;
+}
+
+.carousel-indicators .active {
+    background-color:var(--basic-color) !important;
+}
+#singl-services  p ,h2 ,h3 {
+        color: #1F2B6C;
+    }
+   .basic-color{
+             color: #1F2B6C;
+    }
+.basic-color-bg{
+    background-color: var(--basic-color);
+}
+.team-member .card {
+  
+   text-align: center;
+
+  
+    background-color: #1F2B6C;
+   
+   
+
+}
+.team-member .card .text{background-color: #BFD2F8;}
