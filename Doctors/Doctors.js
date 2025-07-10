@@ -1,6 +1,5 @@
 function initDoctors() {
   let aboutElement = document.getElementById("doctors");
-
 }
 
 function renderDoctors() {
