@@ -21,6 +21,7 @@
 .title{
     position: absolute;
     z-index: 2;
+    text-align: left;
 }
 .title h1 {
     color: #1F2B6C;
@@ -130,5 +131,15 @@ li{
     .new-categories{
     width: 400px;
 }
+#news-articles{
+    width: 400px;
+}
+
+ .title {
+    padding: 0 10px !important;
+    text-align: center;
+     text-align: left;
+  }
+ 
     
 }
