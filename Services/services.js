@@ -1,38 +1,22 @@
-function initservices() {
-   
-  const cards = document.querySelectorAll('.card');
-  console.log(cards)
-  cards.forEach(card => {
-    
-    const image = card.querySelector('.image');
-    const icon = card.querySelector('.icon'); // Find icon WITHIN the same card
-    
-    if (!image || !icon) return; // Skip if elements missing
-    
-    image.addEventListener('mouseenter', () => {
-      icon.classList.add('d-none');
-    });
-    
-    image.addEventListener('mouseleave', () => {
-      icon.classList.remove('d-none');
-    });
-  });
- 
-
+function initServices() {
+  let aboutElement = document.getElementById("services");
+  aboutElement.onclick = function change() {
+    aboutElement.style.fontSize = "50px";
+    aboutElement.style.backgroundColor = "yellow";
+    aboutElement.style.color = "red";
+  };
 }
-  
- 
- 
+
 function renderServices() {
-  fetch("./Services/services.html")
+  fetch("../Services/Services.html")
     .then((response) => response.text())
     .then((html) => {
       root.innerHTML = html;
 
       const script = document.createElement("script");
-      script.src = "./Services/services.js";
+      script.src = "../Services/Services.js";
       script.onload = () => {
-        initservices();
+        initAbout();
       };
       document.body.appendChild(script);
     });
