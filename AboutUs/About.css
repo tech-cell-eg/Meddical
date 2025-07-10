@@ -1,6 +1,6 @@
 /******************************global*****************************************/
 :root {
-  --primary-color: #1F2B6C;
+  --primary-color: #1f2b6c;
   --primary-color: rgb(13 110 253);
 }
 
@@ -19,7 +19,7 @@
 .about p,
 .about h2,
 .about h3 {
-  color: #1F2B6C;
+  color: #1f2b6c;
 }
 
 .about h2,
@@ -38,7 +38,7 @@
 .about .about-header {
   position: relative;
   height: 30vh;
-  background-image: url('../AboutUs/assets/Rectangle 3.png');
+  background-image: url("../AboutUs/assets/Rectangle 3.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('../AboutUs/assets/Frame 2.png');
+  background-image: url("../AboutUs/assets/Frame 2.png");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -113,7 +113,7 @@
 }
 
 .about li::marker {
-  color: #159EEC;
+  color: #159eec;
   font-size: 1.5rem;
 }
 
@@ -145,19 +145,19 @@
   text-align: center;
   flex-grow: 0;
   width: 20%;
-  background-color: #1F2B6C;
+  background-color: #1f2b6c;
   border: 0px;
   font-family: "Work Sans", cursive;
 }
 
 .about .our-doctors .card .text {
-  background-color: #BFD2F8;
+  background-color: #bfd2f8;
 }
 
 /********************************************************/
 .about .new span {
   font-size: 14px;
-  color: #159EEC;
+  color: #159eec;
   margin-inline-start: 10px;
   font-weight: 500;
 }
