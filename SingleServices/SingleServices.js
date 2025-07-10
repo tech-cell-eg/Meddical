@@ -1,10 +1,5 @@
 function initSingleServices() {
-  let aboutElement = document.getElementById("singleServices");
-  aboutElement.onclick = function change() {
-    aboutElement.style.fontSize = "50px";
-    aboutElement.style.backgroundColor = "yellow";
-    aboutElement.style.color = "red";
-  };
+ 
 }
 
 function renderSingleServices() {
