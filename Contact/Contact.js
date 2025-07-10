@@ -1,7 +1,6 @@
 function initContact() {
   let aboutElement = document.getElementById("contact");
 
-
 }
 
 function renderContact() {

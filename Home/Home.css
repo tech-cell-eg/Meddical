@@ -1,6 +1,6 @@
 /* ===================================  Start Leading  ===================================*/
 .leading{
-    background-image:url('./images/4f5792cf615ab11794b15f35bb74dce1d08d710f.jpg');
+    background-image:url('../Home/images/4f5792cf615ab11794b15f35bb74dce1d08d710f.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -145,7 +145,7 @@
 
 @media (max-width: 768px) {
     .leading{
-    background-image:linear-gradient( rgba(229, 228, 232, 0.8),rgba(235, 234, 239, 0)),url('../images/4f5792cf615ab11794b15f35bb74dce1d08d710f.jpg');
+    background-image:linear-gradient( rgba(229, 228, 232, 0.8),rgba(235, 234, 239, 0)),url('../Home/images/4f5792cf615ab11794b15f35bb74dce1d08d710f.jpg');
     background-size: contain;
     min-height: 100vh;
     display: flex;
@@ -215,7 +215,7 @@
 
 @media (max-width: 480px) {
 .leading{
-    background-image:linear-gradient( rgba(229, 228, 232, 0.8),rgba(235, 234, 239, 0)),url('../images/4f5792cf615ab11794b15f35bb74dce1d08d710f.jpg');
+    background-image:linear-gradient( rgba(229, 228, 232, 0.8),rgba(235, 234, 239, 0)),url('../Home/images/4f5792cf615ab11794b15f35bb74dce1d08d710f.jpg');
     background-size: contain;
     min-height: 100vh;
     display: flex;
@@ -314,7 +314,7 @@
 
 .great .image{
     margin-top: 60px;
-    background-image: url('./images/6fcce8f0b03205463c35480c0da07b25515c4be0.png');
+    background-image: url('../Home/images/6fcce8f0b03205463c35480c0da07b25515c4be0.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 450px;
@@ -342,11 +342,11 @@
 /* ===================================  End Great Place  ===================================*/
 
 /* ===================================  Start Services ===================================*/
-.my-title{
+.title{
     text-align: center;
     padding-bottom: 50px;
 }
-.my-title h5{
+.title h5{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #159EEC;
     font-weight: 700;
@@ -354,7 +354,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.my-title h2{
+.title h2{
     color: #1F2B6C;
     font-weight: 700;
     font-size: 32px;
@@ -437,7 +437,7 @@
 
 /* ===================================  Start Appointment ===================================*/
 .appointment{
-  background-image:linear-gradient(rgba(229, 228, 232, 0.8),rgba(229, 228, 232, 0.8)) ,url('./images/image.jpg');
+  background-image:linear-gradient(rgba(229, 228, 232, 0.8),rgba(229, 228, 232, 0.8)) ,url('../Home/images/image.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 550px;
@@ -479,164 +479,29 @@
   color: #1F2B6C;
   background-color: #BFD2F8;
   padding: 15px;
-    border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
 }
-
-/* ===================================  Media Query  ===================================*/
-
-@media (max-width: 750px) {
-  .appointment {
-    height: auto; 
-    background-position: center;
-  }
-
-  .appointment .content {
-    height: auto;
-    padding: 20px;
-    align-items: center; 
-    text-align: center;
-  }
-
-  .appointment .content h2 {
-    font-size: 24px;
-  }
-
-  .appointment .form {
-    margin-top: 30px;
-    padding: 15px;
-  }
-
-  .gender,
-  .time,
-  .date,
-  .doctor,
-  .department {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px; 
-  }
-
-  .message {
-    padding-bottom: 4rem;
-  }
-
-  .sub-btn {
-    width: 100%; 
-    text-align: center;
-  }
-}
-
 
 /* ===================================  End Appointment  ===================================*/
 
-/* ===================================  Start Doctors ===================================*/
-.doctors .item img{
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-.doctors .item .img-2{
-  height: 475px;
-}
-
-.doctors .item .item-content{
-  padding-block: 25px;
-  background-color: #BFD2F8;
-  color: #1F2B6C;
-}
-
-.doctors .item .item-content h4{
- font-weight: 700;
- font-size: 18px;
- letter-spacing: 4px;
- text-transform: uppercase;
-}
-.doctors .item .item-content .icons{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.doctors .item .item-content a{
- width: 28px;
- height: 28px;
- background-color: #1F2B6C;
- color:#BFD2F8 ;
- border-radius: 50%;
- display: flex;
- align-items: center;
- justify-content: center;
- text-decoration: none;
- margin-right: 7px;
-}
-
-.doctors .item p {
-  background-color: #1F2B6C;
-  color: #BFD2F8;
-  padding-block: 10px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
-.circles{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-block: 15px;
-}
-
-.circles .cir-1, .circles .cir-2{
-  width: 15px;
-  height: 15px;
-  background-color: #BFD2F8;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-.circles .cir-2{
-  background-color: #1F2B6C;
-}
-
-/* ===================================  Media Query  ===================================*/
-
-@media(max-width: 1400px){
-  .doctors .item .img-2{
-  height: 408px;
-}
-}
-@media(max-width: 1200px){
-  .doctors .item .img-2{
-  height: 340px;
-}
-}
-@media(max-width: 950px){
-  .doctors .item .img-2{
-  height: 248px;
-}
-}
-
-/* ===================================  End Doctors  ===================================*/
-
-/* ===================================  Start News  ===================================*/
-.news .content .new{
-  padding-block: 10px;
-}
-.news .content .act{
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-.news .content .new img{
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-.news .content .caption p{
+/* .new span{
+  font-size: 14px;
   color: #159EEC;
+  margin-inline-start: 10px;
+  font-weight: 500;}
+.new p{
+  color: black;
 }
-.news .content .caption .icon-1{
-  color: #526AE9;
-  padding-right: 5px;
-}
-.news .content .caption .icon-2{
-  color: #E2315C;
-  padding-inline: 5px;
-}
-/* ===================================  End News  ===================================*/
+.new {     
+   box-sizing: border-box;   
+   width: 49%;    height: 20vh;  
+     display: flex;  
+       flex-direction: row;   
+        text-align: left;   
+         margin: 2px;   
+         margin-top: 2vh;  
+         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+.new p{
+  font-size: 18px;color: rgba(39, 39, 39, 0.842);
+  margin-inline-start: 10px;
+} */

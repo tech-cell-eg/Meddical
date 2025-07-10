@@ -1,8 +1,8 @@
 function initHome() {
   let aboutElement = document.getElementById("home");
+ 
 }
 
-// renderHome();
 
 function renderHome() {
   fetch("../Home/Home.html")
